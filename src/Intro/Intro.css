@@ -1,0 +1,11 @@
+.test{
+    width: 100vw;
+    height: 100vh;
+    transition: "background 0.1s ease-out";
+    align-content: center;
+    max-width:100%;
+}
+
+.test h1{
+    margin: 0;
+}
