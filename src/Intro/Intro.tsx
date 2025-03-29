@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './Intro.css';
+import DownloadBtn from "./components/downloadBtn";
 
 const MouseEffectBackground: React.FC = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -22,7 +23,9 @@ const MouseEffectBackground: React.FC = () => {
       <h1 style={{ color: "white", textAlign: "center" }}>
         My name is Dmitry and I love coding
       </h1>
+      <DownloadBtn />
     </div>
+    
   );
 };
 
