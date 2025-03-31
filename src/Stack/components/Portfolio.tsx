@@ -3,8 +3,6 @@ import './../Stack.css';
 import Uganda from '../../images/uganda.png';
 import Messanger from '../../images/messanger.png';
 import Cards from '../../images/Untitled.png';
-import Icon from '../../images/icon.png';
-import Arrow from '../../images/arrow.png';
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import Browser from '../../images/browser-47.png';

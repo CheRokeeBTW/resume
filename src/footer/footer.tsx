@@ -4,7 +4,7 @@ import './footer.css';
 const Footer: React.FC = () => {
 
     return (
-        <footer className="footer">
+        <footer className="footer" id = "contact">
           <div className="footer-border">
             <div className="footer-content">
               <h2 className="footer-heading">
