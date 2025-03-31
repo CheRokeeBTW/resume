@@ -20,6 +20,10 @@ const Portfolio: React.FC = () => {
     const handleClickCards = () =>{
       window.location.href = "https://cherokeebtw.github.io/SPA1/";
     }
+
+    const handleClickMessanger = () =>{
+      window.location.href = "https://github.com/CheRokeeBTW/Work";
+    }
   
       return (
         <motion.div
@@ -53,7 +57,7 @@ const Portfolio: React.FC = () => {
                 <div className="projectInfo">
                 <h3>Messanger</h3>
                 <div className="projectLink">
-                <button onClick={handleClickFlags}>
+                <button onClick={handleClickMessanger}>
                 <img src={Browser}/>
                 <h4>Source Code</h4>
                 </button>
@@ -73,7 +77,7 @@ const Portfolio: React.FC = () => {
                 <div className="projectInfo">
                 <h3>Cards</h3>
                 <div className="projectLink">
-                <button onClick={handleClickFlags}>
+                <button onClick={handleClickCards}>
                 <img src={Browser}/>
                 <h4>View Demo</h4>
                 </button>
