@@ -1,4 +1,4 @@
-.test{
+.bg{
     width: 100vw;
     height: 100vh;
     transition: "background 0.1s ease-out";
@@ -6,6 +6,22 @@
     max-width:100%;
 }
 
-.test h1{
+.bg h1{
     margin: 0;
+    font-size: 4em;
 }
+
+.glow-text {
+background: linear-gradient(90deg, #ff00ff, #00ffff);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+    .bg h1 {
+        margin: 0;
+        font-size: 2em;
+    }
+  }

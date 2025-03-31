@@ -7,6 +7,7 @@ import Icon from '../../images/icon.png';
 import Arrow from '../../images/arrow.png';
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import Browser from '../../images/browser-47.png';
 
 const Portfolio: React.FC = () => {
     const ref = useRef<HTMLDivElement>(null);
@@ -25,7 +26,8 @@ const Portfolio: React.FC = () => {
         ref={ref}
         initial={{ opacity: 0, y: 50 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}} 
-        transition={{ duration: 0.8 }}>
+        transition={{ duration: 0.8 }}
+        id = "work">
           <div className="portfolio">
             <h2>My Portfolio</h2>
             <div className="projects">
@@ -34,17 +36,30 @@ const Portfolio: React.FC = () => {
                 <div className="projectContent">
                 <div className="projectInfo">
                 <h3>Flags</h3>
+                <div className="projectLink">
+                <button onClick={handleClickFlags}>
+                <img src={Browser}/>
+                <h4>View Demo</h4>
+                </button>
+                </div>
+                </div>
+                </div>
                 <span>React</span>
                 <span>JavaScript</span>
-                </div>
-                <div className="projectLink">
-                <img src={Icon} onClick={handleClickFlags}/>
-                </div>
-                </div>
               </div>
               <div className="project">
-                <img src = {Messanger} />
+                <img src = {Messanger} style = {{width:"100%", height:"15rem"}}/>
+                <div className="projectContent">
+                <div className="projectInfo">
                 <h3>Messanger</h3>
+                <div className="projectLink">
+                <button onClick={handleClickFlags}>
+                <img src={Browser}/>
+                <h4>Source Code</h4>
+                </button>
+                </div>
+                </div>
+                </div>
                 <span>React</span>
                 <span>Nginx</span>
                 <span>PostgreSQL</span>
@@ -57,14 +72,17 @@ const Portfolio: React.FC = () => {
                 <div className="projectContent">
                 <div className="projectInfo">
                 <h3>Cards</h3>
+                <div className="projectLink">
+                <button onClick={handleClickFlags}>
+                <img src={Browser}/>
+                <h4>View Demo</h4>
+                </button>
+                </div>
+                </div>
+                </div>
                 <span>NextJS</span>
                 <span>Typescript</span>
                 <span>Redux</span>
-                </div>
-                <div className="projectLink">
-                <img src={Icon} onClick={handleClickCards}/>
-                </div>
-                </div>
               </div>
             </div>
             </div>  

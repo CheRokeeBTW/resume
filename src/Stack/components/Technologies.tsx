@@ -22,7 +22,8 @@ const Technologies: React.FC = () => {
         ref={ref}
         initial={{ opacity: 0, y: 50 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}} 
-        transition={{ duration: 0.8 }}>
+        transition={{ duration: 0.8 }}
+        id = "about">
               <h1>Technologies I use</h1>
               <p>I'm proficient with these following technologies that I use within my projects.</p>
           <div className = "stack">
