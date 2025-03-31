@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-react-app/static/css/main.d6ed9b07.css",
+    "main.js": "/my-react-app/static/js/main.5841a39f.js",
+    "static/js/453.f19e9853.chunk.js": "/my-react-app/static/js/453.f19e9853.chunk.js",
+    "static/media/Untitled.png": "/my-react-app/static/media/Untitled.5ba503aca99fe4e4ae07.png",
+    "static/media/postgr.png": "/my-react-app/static/media/postgr.feb2e00ce8ea923ac386.png",
+    "static/media/react.png": "/my-react-app/static/media/react.4f4bf936f884388b2811.png",
+    "static/media/nginx.png": "/my-react-app/static/media/nginx.deea88f24ace61bacdac.png",
+    "static/media/figma.png": "/my-react-app/static/media/figma.104c1ccb32c21cfa3c5e.png",
+    "static/media/uganda.png": "/my-react-app/static/media/uganda.e0cd2477538dee716d0d.png",
+    "static/media/ts.png": "/my-react-app/static/media/ts.cf0efaf73c3cc9d45263.png",
+    "static/media/browser-47.png": "/my-react-app/static/media/browser-47.9a5f5708cf5faa8162b9.png",
+    "static/media/docker.png": "/my-react-app/static/media/docker.8e82710da5cd994a90ab.png",
+    "static/media/nextjs.png": "/my-react-app/static/media/nextjs.bd87e23684048d57e318.png",
+    "static/media/git.png": "/my-react-app/static/media/git.13ab150a918ba929c6b4.png",
+    "index.html": "/my-react-app/index.html",
+    "main.d6ed9b07.css.map": "/my-react-app/static/css/main.d6ed9b07.css.map",
+    "main.5841a39f.js.map": "/my-react-app/static/js/main.5841a39f.js.map",
+    "453.f19e9853.chunk.js.map": "/my-react-app/static/js/453.f19e9853.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6ed9b07.css",
+    "static/js/main.5841a39f.js"
+  ]
+}
