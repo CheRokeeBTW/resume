@@ -1,6 +1,3 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css'
 import MouseEffectBackground from './Intro/Intro';
 import Stack from './Stack/Stack';
 import Footer from './footer/footer';

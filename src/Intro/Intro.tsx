@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './Intro.css';
-import DownloadBtn from "./components/downloadBtn";
+import DownloadBtn from "./components/downloadBtn/downloadBtn";
 import Header from "./components/Header";
 import TypingEffect from "./components/TypingEffect";
 

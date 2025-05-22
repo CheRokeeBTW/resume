@@ -1,7 +1,7 @@
 .stackWrapper{
     background-color: #111;
     width: 100vw;
-    height: 200vh;
+    height: 150vh;
     max-width: 100%;
     color: white;
     margin-top: 0;
@@ -89,7 +89,7 @@
 }
 
 .portfolio{
-    text-align: left;
+    text-align: center;
     margin-left: calc(50%);
     transform: translateX(-50%);
 }
@@ -109,8 +109,8 @@
 }
 
 .project{
-    width: 25rem;
-    height: 26rem;
+    width: 29rem;
+    height: 29rem;
     background-color: #313131;
     border-radius: 10px;
     align-content: center;
@@ -299,6 +299,32 @@
         display: grid;
         gap: 1rem;
     }
+  }
+
+  .project-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .carousel-controls {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .carousel-controls button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .carousel-controls button:hover {
+    background-color: #555;
   }
 
 

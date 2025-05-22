@@ -1,0 +1,60 @@
+.projectSwiper {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem 0;
+  }
+
+  .swiper-slide {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  .project {
+    background: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  }
+  
+  .project img.projectImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .projectLink button {
+    display: flex;
+    align-items: center;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 0.95rem;
+  }
+  
+  .projectLink button:hover {
+    background: #444;
+  }
+
+  .techStack{
+    flex-wrap: wrap; 
+    display: flex;
+  }
+  
+  .techStack span {
+    text-wrap: nowrap;
+    background: #444;
+    margin: 0.3rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.4rem;
+    font-size: 0.85rem;
+    line-height: 1rem;
+  }
+  
