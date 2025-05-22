@@ -1,0 +1,173 @@
+.projectSwiper {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem 0;
+  }
+
+  .swiper-slide {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  .project {
+    width: 29rem;
+    height: 29rem;
+    background-color: #313131;
+    border-radius: 10px;
+    align-content: center;
+    padding: 20px;
+  }
+  
+  .project img.projectImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .projectLink button {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #494949;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    font-size: 0.95rem;
+    gap: 3px;
+  }
+  
+  .projectLink button:hover {
+    background: #5e5d5d;
+  }
+
+  .techStack{
+    flex-wrap: wrap; 
+    display: flex;
+  }
+  
+  .techStack span {
+    text-wrap: nowrap;
+    background: #444;
+    margin: 0.3rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.4rem;
+    font-size: 0.85rem;
+    line-height: 1rem;
+  }
+
+  .portfolio{
+    text-align: center;
+    margin-left: calc(50%);
+    transform: translateX(-50%);
+}
+
+.portfolio h2{
+    font-size: 2rem;
+}
+
+.project h3{
+    text-align: left;
+    font-size: 25px;
+}
+
+.spanWrapper{
+   gap: 10px;
+   height: 130px;
+}
+
+.projectContent{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.projectInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.projectLink{
+    align-self: center;
+    background: #494949;
+    border-radius: 10px;
+    width: 7rem;
+    height: 1.7rem;
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    text-wrap: nowrap;
+}
+
+.projectLink img{
+    width: 2rem;
+    height: 2rem;
+    align-self: center;
+}
+
+.projectLink h4{
+    font-size: 0.7em;
+}
+
+  @media (max-width: 1220px){
+  .swiper-button-prev {
+   display: none !important;
+  } 
+
+  .swiper-button-next {
+   display: none !important;
+  } 
+}
+
+@media (max-width: 910px){
+  .project{
+   padding: 0.5rem; 
+  }
+}
+
+@media (max-width: 760px){
+  #work{
+    margin-bottom: 50px;
+  }
+  
+  .project{
+   padding: 0.5rem; 
+   height: 25rem;
+  }
+}
+
+@media (max-width:400px){
+
+  .project{
+    height: 20rem;
+   }
+   
+  .projectInfo h3{
+    font-size: 1rem;
+  }
+
+  .projectLink{
+    width: 5.3rem;
+    height: 1.4rem;
+  }
+
+  .projectLink img{
+    height: 1.4rem;
+    width: 1.3rem;
+  }
+
+  .projectLink button h4{
+    font-size: 0.5rem;
+  }
+
+  .techStack span{
+    margin: 0.2rem;
+    padding: 0.3rem 0.4rem;
+    font-size: 0.6rem;
+  }
+}

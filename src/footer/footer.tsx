@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
                 Like what you see? Reach out <a href="mailto:d.evstigneev99@yandex.ru" className="footer-email">via email</a> to collaborate!
               </h2>
               <p className="footer-name">Dmitry Evstigneev</p>
-              <p className="footer-rights">© 2024 | All rights reserved</p>
+              <p className="footer-rights">© 2025 | All rights reserved</p>
             </div>
           </div>
         </footer>

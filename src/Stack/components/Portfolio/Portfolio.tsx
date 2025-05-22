@@ -1,12 +1,12 @@
 import React, { useRef } from "react";
 import './Portfolio.css';
-import Uganda from '../../images/uganda.png';
-import Messanger from '../../images/messanger.png';
-import Cards from '../../images/Untitled.png';
-import Browser from '../../images/browser-47.png';
+import Uganda from '../../../images/uganda.png';
+import Messanger from '../../../images/messanger.png';
+import Cards from '../../../images/Untitled.png';
+import Browser from '../../../images/browser-47.png';
 import { motion, useInView } from "framer-motion";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, A11y } from 'swiper/modules';
+import { Navigation, Pagination, A11y, Autoplay  } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -50,11 +50,15 @@ const Portfolio: React.FC = () => {
       <div className="portfolio">
         <h2>My Portfolio</h2>
         <Swiper
-          modules={[Navigation, Pagination]}
+          modules={[Navigation, Pagination, Autoplay, A11y ]}
           spaceBetween={30}
           slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
+          autoplay={{
+            delay: 5000, 
+            disableOnInteraction: true,
+          }}
         >
           {projects.map((project, index) => (
             <SwiperSlide key={index}>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './Stack.css';
-import Technologies from "./components/Technologies";
-import Portfolio from "./components/Portfolio";
+import Technologies from "./components/Technologies/Technologies";
+import Portfolio from "./components/Portfolio/Portfolio";
 
 const Stack: React.FC = () => {
 

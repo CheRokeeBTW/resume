@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './Intro.css';
-import DownloadBtn from "./components/downloadBtn/downloadBtn";
-import Header from "./components/Header";
+import DownloadBtn from "./components/DownloadBtn/DownloadBtn";
+import Header from "./components/Header/Header";
 import TypingEffect from "./components/TypingEffect";
 
 const MouseEffectBackground: React.FC = () => {

@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import './../Stack.css';
-import ReactLogo from '../../images/react.png';
-import NextJS from '../../images/nextjs.png';
-import TS from '../../images/ts.png';
-import Figma from '../../images/figma.png';
-import Git from '../../images/git.png';
-import Docker from '../../images/docker.png';
-import Nginx from '../../images/nginx.png';
-import Pg from '../../images/postgr.png';
+import './technologies.css';
+import ReactLogo from '../../../images/react.png';
+import NextJS from '../../../images/nextjs.png';
+import TS from '../../../images/ts.png';
+import Figma from '../../../images/figma.png';
+import Git from '../../../images/git.png';
+import Docker from '../../../images/docker.png';
+import Nginx from '../../../images/nginx.png';
+import Pg from '../../../images/postgr.png';
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
@@ -24,9 +24,9 @@ const Technologies: React.FC = () => {
         animate={isInView ? { opacity: 1, y: 0 } : {}} 
         transition={{ duration: 0.8 }}
         id = "about">
+          <div className = "stack">
               <h1>Technologies I use</h1>
               <p>I'm proficient with these following technologies that I use within my projects.</p>
-          <div className = "stack">
             <div className = "stackComponents">
               <div className = "technology">
                 <div className="technologyImg" style = {{backgroundColor: "rgb(89, 107, 107)"}}>

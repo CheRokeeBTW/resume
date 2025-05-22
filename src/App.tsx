@@ -1,6 +1,6 @@
 import MouseEffectBackground from './Intro/Intro';
 import Stack from './Stack/Stack';
-import Footer from './footer/footer';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
