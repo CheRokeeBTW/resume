@@ -1,11 +1,10 @@
-import React from "react";
 import Download from '../../../images/download.png';
 import './btn.css';
 
 const DownloadBtn = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/resume.pdf"; // Static path from public/
+    link.href = "/resume/resume.pdf";
     link.setAttribute("download", "resume.pdf");
     document.body.appendChild(link);
     link.click();
