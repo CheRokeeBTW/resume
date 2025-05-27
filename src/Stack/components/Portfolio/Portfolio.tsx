@@ -4,6 +4,7 @@ import Uganda from '../../../images/uganda.png';
 import Messanger from '../../../images/messanger.png';
 import Cards from '../../../images/Untitled.png';
 import Browser from '../../../images/browser-47.png';
+import Map from '../../../images/map.png';
 import { motion, useInView } from "framer-motion";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, A11y, Autoplay  } from 'swiper/modules';
@@ -18,6 +19,13 @@ const projects = [
     technologies: ["React", "JavaScript"],
     buttonText: "View Demo",
     url: "https://cherokeebtw.github.io/flagsReal/",
+  },
+  {
+    title: "Map",
+    image: Map,
+    technologies: ["React", "JavaScript", "SCSS", "TypeScript"],
+    buttonText: "View Demo",
+    url: "https://map.ktsf.ru",
   },
   {
     title: "Messanger",
