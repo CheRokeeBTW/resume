@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './footer.css';
 
-const Footer: React.FC = () => {
+const footer: React.FC = () => {
 
     return (
         <footer className="footer" id = "contact">
@@ -18,4 +18,4 @@ const Footer: React.FC = () => {
       );
     };
 
-export default Footer;
+export default footer;

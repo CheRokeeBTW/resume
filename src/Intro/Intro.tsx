@@ -25,7 +25,7 @@ const MouseEffectBackground: React.FC = () => {
     >
       <Header />
       <h1 style={{ color: "white", textAlign: "center" }}>
-       My Name is Dmitry and I Love <TypingEffect />
+       My Name is DmitrySSSSSS and I Love <TypingEffect />
       </h1>
       <DownloadBtn />
     </div>
