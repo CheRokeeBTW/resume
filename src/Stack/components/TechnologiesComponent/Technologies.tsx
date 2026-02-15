@@ -23,7 +23,7 @@ const Technologies: React.FC = () => {
         initial={{ opacity: 0, y: 50 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}} 
         transition={{ duration: 0.8 }}
-        id = "about">
+        >
           <div className = "stack">
               <h1>Technologies I use</h1>
               <p>I'm proficient with these following technologies that I use within my projects.</p>
@@ -79,7 +79,7 @@ const Technologies: React.FC = () => {
                   </div>
               <div className="technologyDecription">
               <h2>Docker</h2>
-              <span>OS for containers</span>
+              <span>Platform for building and deploying</span>
               </div>
               </div>
               <div className = "technology">

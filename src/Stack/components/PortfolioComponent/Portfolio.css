@@ -10,22 +10,59 @@
     justify-content: center !important;
     align-items: center !important;
   }
+
+  .portfolioWrapper{
+    width: 100%;
+  }
+
+  .projectWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .projectWrapper img{
+    height: 100px;
+    align-self: center;
+    cursor: pointer;
+  }
   
   .project {
     width: 29rem;
-    height: 29rem;
+    height: auto;
     background-color: #313131;
     border-radius: 10px;
     align-content: center;
     padding: 20px;
+    animation: project 0.8s ease;
+  }
+
+  @keyframes project {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+  .imgWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
   }
   
   .project img.projectImage {
-    max-width: 100%;
-    height: auto;
+    margin: auto;
+    display: flex;
+    width: 100%;
     border-radius: 1rem;
-    margin-bottom: 1rem;
   }
+
   
   .projectLink button {
     height: 100%;
@@ -46,9 +83,18 @@
     background: #5e5d5d;
   }
 
+  .projectDescription{
+    display: flex;
+    text-align: left;
+    font-size: 14px;
+    color: #ececec;
+    margin-bottom: 10px;
+  }
+
   .techStack{
     flex-wrap: wrap; 
     display: flex;
+    cursor: pointer;
   }
   
   .techStack span {
@@ -62,9 +108,10 @@
   }
 
   .portfolio{
-    text-align: center;
-    margin-left: calc(50%);
-    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .portfolio h2{
@@ -73,7 +120,7 @@
 
 .project h3{
     text-align: left;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 .spanWrapper{
@@ -89,6 +136,9 @@
 .projectInfo{
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 60px;
     width: 100%; 
 }
 
@@ -131,7 +181,7 @@
 }
 
 @media (max-width: 760px){
-  #work{
+  #projects{
     margin-bottom: 50px;
   }
   

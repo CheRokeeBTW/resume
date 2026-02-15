@@ -1,10 +1,9 @@
 .stackWrapper{
     background-color: #111;
     width: 100vw;
-    height: 150vh;
+    height: 170vh;
     max-width: 100%;
     color: white;
-    margin-top: 0;
     align-content: center;
 }
 

@@ -6,7 +6,7 @@ import Portfolio from "./components/PortfolioComponent/Portfolio";
 const Stack: React.FC = () => {
 
     return (
-      <div className="stackWrapper">
+      <div id = "about" className="stackWrapper">
         <Technologies />
         <Portfolio />
         </div>
