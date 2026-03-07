@@ -33,8 +33,11 @@
     height: auto;
     background-color: #313131;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     align-content: center;
-    padding: 20px;
+    padding: 10px 20px;
     animation: project 0.8s ease;
   }
 
@@ -88,7 +91,6 @@
     text-align: left;
     font-size: 14px;
     color: #ececec;
-    margin-bottom: 10px;
   }
 
   .techStack{
@@ -138,7 +140,7 @@
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    height: 60px;
+    height: 40px;
     width: 100%; 
 }
 

@@ -3,6 +3,8 @@ import './Portfolio.css';
 import Uganda from '../../../images/uganda.png';
 import Messanger from '../../../images/messanger.png';
 import Cards from '../../../images/Untitled.png';
+import Dino1 from '../../../images/dino1.png';
+import Dino2 from '../../../images/dino2.png';
 import Browser from '../../../images/browser-47.png';
 import Map from '../../../images/map.png';
 import Map2 from '../../../images/map2.png';
@@ -10,7 +12,7 @@ import Flag from '../../../images/flag2.png';
 import GuessEvent from '../../../images/guessEvent.png';
 import { motion, useInView } from "framer-motion";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Arrow from '../../../images/left-arrow.png';
+import Arrow from '../../../images/arrow1.png';
 import { Navigation, Pagination, A11y, Autoplay  } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -34,12 +36,21 @@ const projects = [
     url: "https://map.ktsf.ru",
   },
   {
-    title: "Messanger",
-    image: [Messanger],
-    technologies: ["React", "Nginx", "PostgreSQL", "JavaScript", "Framer Motion", "Docker"],
-    buttonText: "Source Code",
-    url: "https://github.com/CheRokeeBTW/Work",
+    title: "Dino Game",
+    image: [Dino1, Dino2],
+    technologies: ["JS", "HTML", "CSS"],
+    description: "Fun modern day copy of google dino game, where u need to avoid obstacles and survive as long as you can!", 
+    buttonText: "View demo",
+    url: "https://dino-game-ochre.vercel.app/",
   },
+  // {
+  //   title: "Dungeon Game",
+  //   image: [Messanger],
+  //   technologies: ["JS", "HTML", "CSS"],
+  //   descriprtion: "Web game where you need to play as a knight and escape from dark dungeon, dnd fighting mechanics, dialogs with nps, inventory system with different weapons and equipment",
+  //   buttonText: "Source Code",
+  //   url: "https://github.com/CheRokeeBTW/Work",
+  // },
   {
     title: "Flags",
     image: [Uganda, Flag],
@@ -76,18 +87,9 @@ const Portfolio: React.FC = () => {
           <img 
           src = {Arrow}
           onClick={handlePrev}
+          style={{transform: `rotate(180deg)`}}
           />
               <div key = {currSlide} className="project">
-                <div className="imgWrapper">
-                {project.image.map((img, index) => (
-                <img 
-                src={img} 
-                alt={`index`}
-                key={index}
-                style={{ height: projLength > 1 ? "250px" : "auto" }}
-                className="projectImage" />
-                ))}
-                </div>
                 <div className="projectContent">
                   <div className="projectInfo">
                     <h3>{project.title}</h3>
@@ -98,6 +100,16 @@ const Portfolio: React.FC = () => {
                       </button>
                     </div>
                   </div>
+                </div>
+                <div className="imgWrapper">
+                {project.image.map((img, index) => (
+                <img 
+                src={img} 
+                alt={`index`}
+                key={index}
+                style={{ height: projLength > 1 ? "250px" : "auto" }}
+                className="projectImage" />
+                ))}
                 </div>
                     <div className="projectDescription">
                       {project.description}
@@ -111,7 +123,6 @@ const Portfolio: React.FC = () => {
              <img 
              src = {Arrow} 
              onClick={handleNext}
-             style={{transform: `rotate(180deg)`}}
              />
             </div>
       </div>
