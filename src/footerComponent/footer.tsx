@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import './footer.css';
 
 const footer: React.FC = () => {
