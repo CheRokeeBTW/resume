@@ -10,6 +10,8 @@ import Map from '../../../images/map.png';
 import Map2 from '../../../images/map2.png';
 import Flag from '../../../images/flag2.png';
 import GuessEvent from '../../../images/guessEvent.png';
+import Rogue from '../../../images/rogue1.png';
+import Rogue1 from '../../../images/rogue2.png';
 import { motion, useInView } from "framer-motion";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Arrow from '../../../images/arrow1.png';
@@ -43,14 +45,14 @@ const projects = [
     buttonText: "View demo",
     url: "https://dino-game-ochre.vercel.app/",
   },
-  // {
-  //   title: "Dungeon Game",
-  //   image: [Messanger],
-  //   technologies: ["JS", "HTML", "CSS"],
-  //   descriprtion: "Web game where you need to play as a knight and escape from dark dungeon, dnd fighting mechanics, dialogs with nps, inventory system with different weapons and equipment",
-  //   buttonText: "Source Code",
-  //   url: "https://github.com/CheRokeeBTW/Work",
-  // },
+  {
+    title: "Dungeon Game",
+    image: [Rogue, Rogue1],
+    technologies: ["JS", "HTML", "CSS"],
+    description: "Web game where you need to play as a knight and escape from dark dungeon, dnd fighting mechanics, dialogs with nps, inventory system with different weapons and equipment",
+    buttonText: "Source Code",
+    url: "https://rogue-game-git-main-cherokees-projects.vercel.app/",
+  },
   {
     title: "Flags",
     image: [Uganda, Flag],

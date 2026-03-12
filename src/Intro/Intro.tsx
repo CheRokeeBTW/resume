@@ -25,8 +25,17 @@ const MouseEffectBackground: React.FC = () => {
     >
       <Header />
       <h1 style={{ color: "white", textAlign: "center" }}>
-       My Name is Dmitry and I Love <TypingEffect />
+       Frontend developer
       </h1>
+      <p style={{ color: "white", textAlign: "center", fontSize: "18px"}}>
+        I’m an International Business graduate who now works as a software developer, applying my knowledge through coding projects. 
+      </p>
+      <p className="contact-link">
+        GitHub: <a href="https://github.com/CheRokeeBTW">@CheRokeeBTW</a>
+      </p>
+      <p className="contact-link">
+        Email: <a href="mailto:d.evstigneev99@yandex.ru">d.evstigneev99@yandex.ru</a>
+      </p>
       <DownloadBtn />
     </div>
     
