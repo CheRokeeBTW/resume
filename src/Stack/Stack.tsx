@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import './Stack.css';
 import Technologies from "./components/TechnologiesComponent/Technologies";
 import Portfolio from "./components/PortfolioComponent/Portfolio";

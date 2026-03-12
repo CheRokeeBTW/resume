@@ -1,4 +1,4 @@
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import './Portfolio.css';
 import Uganda from '../../../images/uganda.png';
 import Dino1 from '../../../images/dino1.png';

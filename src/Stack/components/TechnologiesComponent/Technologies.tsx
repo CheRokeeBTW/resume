@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import './technologies.css';
 import ReactLogo from '../../../images/react.png';
 import NextJS from '../../../images/nextjs.png';
