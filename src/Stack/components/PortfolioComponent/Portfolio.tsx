@@ -1,8 +1,6 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, {  useState } from "react";
 import './Portfolio.css';
 import Uganda from '../../../images/uganda.png';
-import Messanger from '../../../images/messanger.png';
-import Cards from '../../../images/Untitled.png';
 import Dino1 from '../../../images/dino1.png';
 import Dino2 from '../../../images/dino2.png';
 import Browser from '../../../images/browser-47.png';
@@ -12,10 +10,7 @@ import Flag from '../../../images/flag2.png';
 import GuessEvent from '../../../images/guessEvent.png';
 import Rogue from '../../../images/rogue1.png';
 import Rogue1 from '../../../images/rogue2.png';
-import { motion, useInView } from "framer-motion";
-import { Swiper, SwiperSlide } from 'swiper/react';
 import Arrow from '../../../images/arrow1.png';
-import { Navigation, Pagination, A11y, Autoplay  } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -90,6 +85,7 @@ const Portfolio: React.FC = () => {
           src = {Arrow}
           onClick={handlePrev}
           style={{transform: `rotate(180deg)`}}
+          alt=""
           />
               <div key = {currSlide} className="project">
                 <div className="projectContent">
@@ -125,6 +121,7 @@ const Portfolio: React.FC = () => {
              <img 
              src = {Arrow} 
              onClick={handleNext}
+             alt=""
              />
             </div>
       </div>

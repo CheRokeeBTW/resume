@@ -13,7 +13,7 @@ const DownloadBtn = () => {
   
     return (
         <div className = "wrapper">
-        <img src = {Download} onClick={handleDownload} style = {{width:"2rem"}}/>
+        <img src = {Download} onClick={handleDownload} style = {{width:"2rem"}} alt=""/>
       <h1>Download my CV</h1>
       </div>
     );

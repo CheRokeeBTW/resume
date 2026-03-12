@@ -30,7 +30,7 @@ const Technologies: React.FC = () => {
             <div className = "stackComponents">
               <div className = "technology">
                 <div className="technologyImg" style = {{backgroundColor: "rgb(89, 107, 107)"}}>
-                  <img src = {ReactLogo} />
+                  <img src = {ReactLogo} alt=""/>
                   </div>
               <div className="technologyDecription">
               <h2>React</h2>
@@ -39,7 +39,7 @@ const Technologies: React.FC = () => {
               </div>
               <div className = "technology">
                 <div className="technologyImg" style = {{backgroundColor: "rgb(107, 109, 109)"}}>
-                  <img src = {NextJS}  style ={{width:"2rem", height:"2rem"}} />
+                  <img src = {NextJS}  style ={{width:"2rem", height:"2rem"}} alt=""/>
                   </div>
               <div className="technologyDecription">
               <h2>NextJS</h2>
@@ -48,7 +48,7 @@ const Technologies: React.FC = () => {
               </div>
               <div className = "technology">
                 <div className="technologyImg" style = {{backgroundColor: "rgb(94, 99, 99)"}}>
-                  <img src = {TS} style = {{ width:"2rem", height:"2.2rem"}}/>
+                  <img src = {TS} style = {{ width:"2rem", height:"2.2rem"}} alt=""/>
                   </div>
               <div className="technologyDecription">
               <h2>TypeScript</h2>
@@ -57,7 +57,7 @@ const Technologies: React.FC = () => {
               </div>
               <div className = "technology">
                 <div className="technologyImg" style = {{backgroundColor: "rgb(24, 85, 32)"}}>
-                  <img src = {Figma} style ={{ width:"1.8rem", height:"2.2rem"}}/>
+                  <img src = {Figma} style ={{ width:"1.8rem", height:"2.2rem"}} alt=""/>
                   </div>
               <div className="technologyDecription">
               <h2>Figma</h2>
@@ -66,7 +66,7 @@ const Technologies: React.FC = () => {
               </div>
               <div className = "technology">
                 <div className="technologyImg" style = {{backgroundColor: "rgb(105, 51, 26)"}}>
-                  <img src = {Git} style ={{ width:"2.2rem", height:"2.2rem"}}/>
+                  <img src = {Git} style ={{ width:"2.2rem", height:"2.2rem"}} alt=""/>
                   </div>
               <div className="technologyDecription">
               <h2>Git</h2>
@@ -75,7 +75,7 @@ const Technologies: React.FC = () => {
               </div>
               <div className = "technology">
                 <div className="technologyImg" style = {{backgroundColor: "rgb(14, 46, 82)"}}>
-                  <img src = {Docker} />
+                  <img src = {Docker} alt=""/>
                   </div>
               <div className="technologyDecription">
               <h2>Docker</h2>
@@ -84,7 +84,7 @@ const Technologies: React.FC = () => {
               </div>
               <div className = "technology">
                 <div className="technologyImg" style = {{backgroundColor: "rgb(12, 73, 22)"}}>
-                  <img src = {Nginx} style ={{ width:"2.6rem", height:"2.5rem"}}/>
+                  <img src = {Nginx} style ={{ width:"2.6rem", height:"2.5rem"}} alt=""/>
                   </div>
               <div className="technologyDecription">
               <h2>Nginx</h2>
@@ -93,7 +93,7 @@ const Technologies: React.FC = () => {
               </div>
               <div className = "technology">
                 <div className="technologyImg" style = {{backgroundColor: "rgb(64, 64, 110)"}}>
-                  <img src = {Pg} style ={{ width:"2.4rem", height:"2.2rem"}}/>
+                  <img src = {Pg} style ={{ width:"2.4rem", height:"2.2rem"}} alt=""/>
                   </div>
               <div className="technologyDecription">
               <h2>PostgreSQL</h2>
